@@ -2,9 +2,9 @@
 
 [![Build Status](https://travis-ci.org/llucenic/graylog-plugin-hexdec.svg?branch=master)](https://travis-ci.org/llucenic/graylog-plugin-hexdec)
 
-__Use this paragraph to enter a description of your plugin.__
+Plugin installs hex-to-dec and dec-to-hex numeric/string conversions as pipeline functions to Graylog.
 
-**Required Graylog version:** 2.0 and later
+**Required Graylog version:** 2.1 and later
 
 Installation
 ------------
@@ -30,7 +30,7 @@ dramatically by making use of hot reloading. To do this, do the following:
 Usage
 -----
 
-__Use this paragraph to document the usage of your plugin__
+Use the functions as described in release notes or following the pipeline functions reference integrated in Graylog Web Interface.
 
 
 Getting started
