@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/data/work/space/eclipse/graylog/graylog-plugin-hexdec-functions/node/node',
+1 verbose cli   '/data/work/space/eclipse/graylog/graylog-plugin-hexdec-functions/node/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'build' ]
+2 info using npm@3.8.6
+3 info using node@v4.4.3
+4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+5 info lifecycle HexDecFunctions@1.0.0-SNAPSHOT~prebuild: HexDecFunctions@1.0.0-SNAPSHOT
+6 silly lifecycle HexDecFunctions@1.0.0-SNAPSHOT~prebuild: no script for prebuild, continuing
+7 info lifecycle HexDecFunctions@1.0.0-SNAPSHOT~build: HexDecFunctions@1.0.0-SNAPSHOT
+8 verbose lifecycle HexDecFunctions@1.0.0-SNAPSHOT~build: unsafe-perm in lifecycle true
+9 verbose lifecycle HexDecFunctions@1.0.0-SNAPSHOT~build: PATH: /data/work/space/eclipse/graylog/graylog-plugin-hexdec-functions/node/node_modules/npm/bin/node-gyp-bin:/data/work/space/eclipse/graylog/graylog-plugin-hexdec-functions/node_modules/.bin:/data/work/space/eclipse/graylog/graylog-plugin-hexdec-functions/node:/data/work/space/eclipse/graylog/graylog-plugin-hexdec-functions/node:/opt/var:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:
+10 verbose lifecycle HexDecFunctions@1.0.0-SNAPSHOT~build: CWD: /data/work/space/eclipse/graylog/graylog-plugin-hexdec-functions
+11 silly lifecycle HexDecFunctions@1.0.0-SNAPSHOT~build: Args: [ '-c', 'webpack' ]
+12 info lifecycle HexDecFunctions@1.0.0-SNAPSHOT~build: Failed to exec build script
+13 verbose stack Error: HexDecFunctions@1.0.0-SNAPSHOT build: `webpack`
+13 verbose stack spawn ENOENT
+13 verbose stack     at ChildProcess.<anonymous> (/data/work/space/eclipse/graylog/graylog-plugin-hexdec-functions/node/node_modules/npm/lib/utils/spawn.js:17:16)
+13 verbose stack     at emitTwo (events.js:87:13)
+13 verbose stack     at ChildProcess.emit (events.js:172:7)
+13 verbose stack     at maybeClose (internal/child_process.js:827:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+14 verbose pkgid HexDecFunctions@1.0.0-SNAPSHOT
+15 verbose cwd /data/work/space/eclipse/graylog/graylog-plugin-hexdec-functions
+16 error Linux 3.16.0-38-generic
+17 error argv "/data/work/space/eclipse/graylog/graylog-plugin-hexdec-functions/node/node" "/data/work/space/eclipse/graylog/graylog-plugin-hexdec-functions/node/node_modules/npm/bin/npm-cli.js" "run" "build"
+18 error node v4.4.3
+19 error npm  v3.8.6
+20 error file sh
+21 error code ELIFECYCLE
+22 error errno ENOENT
+23 error syscall spawn
+24 error HexDecFunctions@1.0.0-SNAPSHOT build: `webpack`
+24 error spawn ENOENT
+25 error Failed at the HexDecFunctions@1.0.0-SNAPSHOT build script 'webpack'.
+25 error Make sure you have the latest version of node.js and npm installed.
+25 error If you do, this is most likely a problem with the HexDecFunctions package,
+25 error not with npm itself.
+25 error Tell the author that this fails on your system:
+25 error     webpack
+25 error You can get information on how to open an issue for this project with:
+25 error     npm bugs HexDecFunctions
+25 error Or if that isn't available, you can get their info via:
+25 error     npm owner ls HexDecFunctions
+25 error There is likely additional logging output above.
+26 verbose exit [ 1, true ]
