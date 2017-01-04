@@ -13,7 +13,7 @@ import org.graylog.plugins.pipelineprocessor.ast.functions.ParameterDescriptor;
 public class Hex2DecFunction extends AbstractFunction<Long> {
 
     public static final String NAME = "hex2dec";
-    private static final String PARAM = "string";
+    private static final String PARAM = "hexstring";
 
     @Override
     public Long evaluate(FunctionArgs functionArgs, EvaluationContext evaluationContext) {
