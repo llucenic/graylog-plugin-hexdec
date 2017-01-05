@@ -25,7 +25,9 @@ public class Dec2HexFunction extends AbstractFunction<String> {
 
     private final ParameterDescriptor<Long, Long> lenParam = ParameterDescriptor
     		.integer(PARAM_LEN)
-    		.description("Result string length. Result will be padded with leading zeroes to have at least len length. The sign of the parameter value is ignored. Defaults to 1.")
+    		.optional()
+    		.description("Result string length. Result will be padded with leading zeroes to have at least len length. " +
+    				"The sign of the parameter value is ignored. Defaults to 1, even if parameter is 0.")
     		.build();
 
     @Override
@@ -34,8 +36,10 @@ public class Dec2HexFunction extends AbstractFunction<String> {
     	Optional<Long> numLength = lenParam.optional(functionArgs, evaluationContext);
 
         if (number == null) return null;
-                
-        return String.format("%0" + String.valueOf(Math.abs(numLength.orElse(1L))) + "x", number);
+        
+        String length = String.valueOf(Math.abs(numLength.orElse(1L)));
+        
+        return String.format("%0" + (length == "0" ? "1" : length) + "x", number);
     }
     
    	@Override

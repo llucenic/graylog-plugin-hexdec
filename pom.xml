@@ -9,7 +9,7 @@
 
     <groupId>sk.digitalorchestra.graylog.plugins</groupId>
     <artifactId>graylog-plugin-hexdec-functions</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
     <packaging>jar</packaging>
 
     <name>${project.artifactId}</name>
@@ -216,4 +216,8 @@
             </plugin>
         </plugins>
     </build>
+    <organization>
+    	<name>Digital Orchestra, s.r.o.</name>
+    	<url>www.digital-orchestra.sk</url>
+    </organization>
 </project>

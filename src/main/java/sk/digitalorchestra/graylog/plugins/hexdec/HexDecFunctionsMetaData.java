@@ -37,7 +37,7 @@ public class HexDecFunctionsMetaData implements PluginMetaData {
     @Override
     public Version getVersion() {
         return Version.fromPluginProperties(getClass(), PLUGIN_PROPERTIES, "version",
-        		Version.from(1, 1, 0));
+        		Version.from(1, 0, 0, "SNAPSHOT"));
     }
 
     @Override
